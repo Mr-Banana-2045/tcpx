@@ -5,7 +5,14 @@ A simple tool to find out whether the tcp port is active or inactive and to get 
 ![Screenshot (73)](https://github.com/Mr-Banana-2045/tcpx/assets/109140672/79a5b828-9776-4c3f-bc45-30514e92afad)
 
 * Use Shodan's website
-## install
+# install one
+<pre>
+  <code>
+    sudo apt-get install sshpass
+    sudo apt install netcat
+  </code>
+</pre>
+## install two
 <pre>
   <code>
     git clone https://github.com/Mr-Banana-2045/tcpx
